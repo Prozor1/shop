@@ -1,0 +1,36 @@
+.rollover {
+	background: url(img/fo2.png);
+	display: block;
+
+	width: 250px;
+	height: 300px;
+
+}
+
+.rollover:hover {
+	background: url(img/fo1.jpg);
+
+}
+
+.feature.discount {
+	background-color: #b6291e;
+	border-color: #b6291e;
+	color: #fff;
+}
+
+
+.feature {
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid transparent;
+	font-size: 14px;
+	font-weight: 600;
+	height: 30px;
+	left: 20px;
+	letter-spacing: -15%;
+	line-height: 30px;
+	position: absolute;
+	text-align: center;
+	top: 25px;
+	width: 75px;
+	z-index: 99;
+}
