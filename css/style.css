@@ -33,7 +33,7 @@
 
 
 .rollover {
-	background: url(img/fo2.png);
+	background: url(../img/fo2.png);
 	display: block;
 	margin: 0 auto;
 	width: 250px;
@@ -41,7 +41,7 @@
 }
 
 .rollover:hover {
-	background: url(img/fo1.jpg);
+	background: url(../img/fo1.jpg);
 
 }
 
@@ -114,21 +114,6 @@
 	line-height: 7px;
 }
 
-<<<<<<< HEAD
-.h3{
-	font-family: 'Poppins', sans-serif;
-	color: #000;
-	font-weight: 700;
-	font-size: 15px;
-	}
-
-
-.name{
-	font-family: 'Poppins', sans-serif;
-	font-size: 14px;
-	color: #808080;
-}
-=======
 .title{
    color: black;
 }
@@ -137,4 +122,3 @@
 color: rgb(99, 90, 90);
 }
 
->>>>>>> cd1f7d128309ef549f658587406c3cca94416430

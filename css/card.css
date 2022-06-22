@@ -1,24 +1,146 @@
 body {
-   font-family: 'Open Sans', sans-serif;
-   background-color: #eee;
+
+	font-family: 'Poppins', sans-serif;
+
+	background-color: #eee;
 }
+
+.wrapper {
+	margin: auto;
+
+}
+
+a.rollover {
+	background-image: url(../img/fo2.png);
+	display: block;
+	width: 250px;
+	height: 300px;
+	border-radius: 20px;
+}
+
+a.rollover:hover {
+	background: url(../img/fo1.jpg);
+}
+
+
+.button {
+
+	position: absolute;
+
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	width: 250px;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: none;
+	font-size: 16px;
+	border-radius: 11px;
+
+	top: 300px;
+	cursor: pointer;
+}
+
+.card:hover .button {
+	display: block;
+}
+
+
 
 .card {
 
-   background-color: #fff;
-   width: 250px;
-   border-radius: 20px;
-   padding: 20px;
+	background-color: #fff;
+	width: 250px;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 10px 10px 40px rgb(91, 84, 84);
+	margin: auto;
+}
+
+.card-img {
+
+	border-radius: 11px;
+}
+
+.card-img:hover {
+	background: url(../img/fo1.jpg);
+	display: block;
 }
 
 .card-title {
-   margin-top: 20px;
-   font-style: 14px;
-   font-weight: 500;
+	margin-top: 30px;
+	font-size: 18px;
+	font-weight: 900;
+	
+	line-height: 7px;
 }
 
 .card-sub {
-   font-style: 12px;
-   font-weight: 300;
-   margin-top: 20px;
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
+
+
+.btn-keeper {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.btn {
+	background-color: rgb(212, 130, 21);
+	padding: 7px 26px;
+	text-decoration: none;
+	color: #eee;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: rgb(121, 74, 12);
+	transition: 0.5s linear;
+}
+
+
+.product-price {
+	font-size: 18px;
+	color: #b6291e;
+	
+}
+
+.p-span {
+	text-decoration: line-through;
+	display: inline-block;
+	color: rgb(150, 138, 138);
+
+	padding-left: 10px;
+}
+
+.free-item{
+	color:#8b559d;
+	margin-top: -14px;
+	font-size: 12px;
+}
+
+.discount {
+	background-color: #b6291e;
+	border-color: #b6291e;
+	color: #fff;
+	display: block;
+
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid transparent;
+	font-size: 14px;
+	font-weight: 600;
+	height: 30px;
+
+	letter-spacing: -15%;
+	line-height: 30px;
+	position: absolute;
+	text-align: center;
+	top: 50px;
+	
+	width: 75px;
+	z-index: 99;
 }
