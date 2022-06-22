@@ -1,10 +1,34 @@
-.container {
+.body{
+   font-family: 'Poppins', sans-serif;
+}
+
+.product-item {
 	display: block;
 	width: 290px;
-	height: 450px;
+	height: 500px;
 	background-color: #f6f6f6;
 	margin: 0 auto;
 	position: relative;
+}
+
+.free-item{
+   color: #8b559d;
+}
+
+.product-item:hover .button {
+	display: block;
+}
+
+.product-price{
+   color: #b6291e;
+}
+
+.p-span{
+   text-decoration: line-through;
+   display:inline-block;
+   color: rgb(150, 138, 138);
+
+   padding-left: 10px;
 }
 
 
@@ -81,17 +105,16 @@
 	cursor: pointer;
 }
 
-.container:hover .button {
-	display: block;
-}
+
 
 .main-info {
 	width: 250px;
-	padding: 10px 0 0 20px;
-	letter-spacing: 1px;
+	padding: 38px 0 0 20px;
+	
 	line-height: 7px;
 }
 
+<<<<<<< HEAD
 .h3{
 	font-family: 'Poppins', sans-serif;
 	color: #000;
@@ -105,3 +128,13 @@
 	font-size: 14px;
 	color: #808080;
 }
+=======
+.title{
+   color: black;
+}
+
+.subtitle{
+color: rgb(99, 90, 90);
+}
+
+>>>>>>> cd1f7d128309ef549f658587406c3cca94416430
